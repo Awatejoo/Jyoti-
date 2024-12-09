@@ -1,0 +1,33 @@
+//write  a c program to print the reverse user number
+
+#include<stdio.h>
+
+int main()
+
+{
+   
+ int num;
+   
+
+ printf("enter the integer value:");
+ 
+  scanf("%d",&num);
+   
+ for(int i=1;i<=num;i++)
+  
+  {
+       
+ for(int j=1;j<=i;j++)
+  
+      {
+           
+ printf("%c",(64+i));
+   
+     }
+       
+ printf("\n");
+  
+  }
+}
+        
+    

@@ -1,0 +1,39 @@
+//write  a c program to print the reverse user number
+
+#include<stdio.h>
+
+int main()
+
+{
+    
+int num;//843
+    
+int rev=0;
+   
+ int rem=0;
+    
+printf("enter the integer value:");
+  
+  scanf("%d",&num);
+    
+//revers the number
+    
+while(num!=0)
+   
+ {
+       
+ rem=num%10;
+       
+ rev=rev*10+rem;
+      
+  num=num/10;
+   
+ }    
+   
+ printf("the reversed num is:%d",rev);
+  
+  return 0;
+
+}
+    
+
