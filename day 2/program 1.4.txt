@@ -1,0 +1,26 @@
+//write a c program to print the multiplication table of n
+
+#include<stdio.h>
+
+int main()
+
+{
+    
+int num; 
+   
+ printf("enter the number");
+    
+scanf("%d \n",&num);
+   
+ for(int i=10;i>=1;i--)
+  
+  {
+       
+ printf("%d*%d=%d \n",num,i,num*i);
+  
+  }
+   
+ 
+}
+    
+      
