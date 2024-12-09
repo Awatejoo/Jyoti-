@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+
+{
+   
+ printf("good morning\n");
+   
+ printf("this is my first c programming session\n");
+
+}
+
+

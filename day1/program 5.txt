@@ -1,0 +1,24 @@
+// write a c programe to read iinteger value as input from the user and check whether it is two digit number or not
+
+#include <stdio.h>
+
+int main() {
+    
+int n;
+   
+ printf("enter the integer\n");
+   
+ scanf("%d",&n);
+   
+ if((n>=-99 && n<=-10)||(n>=99 && n<=10))
+  
+  printf("the integer is a two digit number ");
+  
+  else
+    
+printf("the integer is not a two digit number");
+
+ 
+   return 0;
+
+}

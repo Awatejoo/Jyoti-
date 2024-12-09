@@ -1,0 +1,22 @@
+//write a c program to check the user two integer values are equal or not
+
+#include<stdio.h>
+int main()
+
+{
+    
+int n1,n2;
+    
+printf("enter the integer number\n");
+    
+scanf("%d %d",&n1,&n2);
+    
+if (n1==n2)
+    
+printf("the integer values are equal");
+    
+else
+    
+printf("the integer values are not equal");
+
+}
