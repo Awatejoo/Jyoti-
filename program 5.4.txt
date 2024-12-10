@@ -1,0 +1,55 @@
+// write a c program to declare& creatr an array of size 10 and access the array element
+#include<stdio.h>
+int main(){
+char studentname[10];
+int subjectone;
+int subjecttwo;
+int subjectthree;
+int total;
+int average;
+printf("enter the student name:\n");
+scanf("%s",&studentname);
+printf("enter the fist subject marks:\n");
+scanf("%d",&subjectone);
+printf("enter the second subject marks:\n");
+scanf("%d",&subjecttwo);
+printf("enter the third subject marks:\n");
+scanf("%d",&subjectthree);
+printf(" students report card:\n");   
+printf("----------------\n");
+printf("students name:%s\n",studentname);
+if(subjectone<35||subjecttwo<35||subjectthree<35)
+{
+    printf("fail");
+}
+  else
+{
+    total=subjectone+subjecttwo+subjectthree;
+    average=total/3;
+     printf("total:%d\n",total);
+     printf("average:%d\n",average);
+    if(average>=85)
+    {
+
+     printf("first class");
+ }
+ else if (average>=65)
+ {
+  printf("second class");
+ }
+    else
+  {
+    printf("third class");
+    }
+}
+} 
+    
+
+
+
+
+
+
+
+
+
