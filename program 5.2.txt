@@ -1,0 +1,12 @@
+// Online C compiler to run C program onli
+#include <stdio.h>
+
+int main() {
+    char prog_lang[]="c programming";
+    printf("%s \n",prog_lang);
+    //interation of string using for loop
+    for(int i=0;i<=13;i++)
+    {
+        printf("%c\n",prog_lang[i]);
+    }
+    }
